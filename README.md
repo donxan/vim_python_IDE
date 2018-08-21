@@ -111,7 +111,7 @@ wget -O ~/.vim/colors/monokai.vim https://raw.githubusercontent.com/sickill/vim-
 ```
 
 ```
-git clone https://github.com/donxan/vim_python_IDE
+git clone https://github.com/donxan/vim_python_IDE.git
 ```
 
 
