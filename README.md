@@ -14,7 +14,8 @@ sudo yum install ncurses-devel python-devel -y
 git clone https://github.com/vim/vim.git
 cd vim/src
 # 根据自己实际情况设置编译参数
-./configure --with-features=huge --enable-pythoninterp=yes --enable-cscope --enable-fontset --with-python-config-dir=/usr/lib64/python2.7/config -–enable-python3interp=yes --with-python-config-dir=/usr/lib/python3.6/config --enable-multibyte --prefix=/usr/local/vim/
+./configure --with-features=huge --enable-pythoninterp=yes --enable-cscope --enable-fontset --with-python-config-dir=/usr/lib64/python2.7/config --enable-python3interp=yes --with-python-config-dir=/usr/lib/python3.6/config --enable-multibyte --prefix=/usr/local/vim/
+
 make -j2 && make install
 ```
 
